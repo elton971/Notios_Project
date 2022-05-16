@@ -1,0 +1,42 @@
+.addPageContentAddButton{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 100%;
+}
+
+.settingsContentButton{
+
+    display: flex;
+    align-items: center;
+   
+
+    width:100%;
+    min-width: 250px;
+    height: 50px;
+
+    color:#797976;
+    
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+
+    padding:.3rem 3rem;
+}
+.settingsContentButton img{
+    width: 25px;
+    height: 100%;
+
+    filter: contrast(0);
+    margin-right: 1rem;
+
+    
+   
+}
+
+.settingsContentButton:hover{
+    background-color: #dddddd;
+    color: rgb(43, 43, 43);
+}

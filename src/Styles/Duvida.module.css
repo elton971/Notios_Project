@@ -1,0 +1,25 @@
+.DuvidasContainer{
+    position: absolute;
+    right: 0;
+    bottom: 5rem;
+
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+
+    margin-right: 2rem;
+    
+    background-color: #fff;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color:black;
+}
+
+.DuvidasContainer p{
+    font-size: 2.5rem;
+
+    margin-top: 1.4rem;
+
+    margin-left: 2.4rem;
+
+}

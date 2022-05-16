@@ -1,0 +1,26 @@
+.sidebar{
+    
+    height: 100%;
+    width: 15%;
+
+    background-color: #f1f1f1;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    overflow: auto;
+
+    float: right;
+
+
+}
+.centerContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 85%;
+    float:right;
+
+    overflow: auto  ;
+}

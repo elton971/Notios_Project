@@ -1,0 +1,55 @@
+.tasks__list{
+    display: flex;
+    flex-direction: column;   
+}
+
+.tasks__Title{
+    padding: 3px 2px;
+
+    -webkit-text-fill-color: rgba(55, 53, 47, 0.15);
+
+    margin-top: 5rem;
+    margin-left: 40rem;
+}
+
+.tasks__Title input{
+    width: 100%;
+    height: 3rem;
+
+    border: none;
+    outline: none;
+
+    background-color: transparent;
+   
+}
+
+.tasks__Title input[type="text"]{
+
+    font-size: 3rem;
+    font-weight: bold;
+    
+    padding: 2rem;
+
+}
+
+.tasks__list__item{
+    margin-left: 44rem;
+    
+    font-size: 2rem;  
+}
+
+.tasks__list__item_ul{
+   display: flex;
+   align-items: center;
+
+   list-style: none;
+}
+.tasks__list__item_ul input{
+    width: 2em;
+    height: 2rem;
+}
+.tasks__list__item_ul input[type="checkbox"]{
+    margin-right: 1rem;
+
+    
+}
