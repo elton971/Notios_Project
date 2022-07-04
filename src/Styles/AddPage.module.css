@@ -1,18 +1,22 @@
 .addPageContainer{
-    margin-top: 1rem;	
+    width: 100%;
+    margin-top: 1rem;
+    position: relative;
+    
+
 }
 
 .addPageContent{
     display:flex;
     flex-direction: column;
     cursor: pointer;
-
 }
 
 
 .addPageContentTitle, .addPageContentTitleView{
     display:flex;
     color:#797976;
+
    
 }
 
@@ -20,10 +24,17 @@
     padding:.3rem 2rem;
 }
 
-.addPageContentTitleView p{
+.addPageContentTitleView input{
     font-size: 1.2rem;
-
-    margin: 0 1rem;
+    width: 5rem;
+    height: 2rem;   
+    border: none;
+    outline: none;
+}
+.addPageContentTitleView input[type="text"]{
+    width: 4.5rem;
+    margin-right: .5rem;
+    background: #e8e8e0;	
 }
 
 .addPageContentTitleView img, .addPageContentTitleOption img{
