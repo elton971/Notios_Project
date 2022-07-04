@@ -14,7 +14,7 @@ export const Tasks = () => {
                         onChange={(e)=>{
                             valueUp (e.target.value);
                         }
-                        }
+                    }
                     />
                 </div>
                 <div className={style.tasks__list__item}>
